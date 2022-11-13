@@ -1,0 +1,45 @@
+{
+  "name": "gymstep.de",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kevin Sandow <kevin@sandow.email>",
+  "dependencies": {
+    "gatsby": "^4.24.7",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
