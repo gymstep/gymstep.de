@@ -666,9 +666,9 @@ a[href^=http]:not([href*="gymstep.de"]):after {
 
 .logo img {
     position: absolute;
-    right: 20px;
-    top: -20px;
-    width: 80px;
-    border: 2px solid #AAA;
-    border-radius: 40px
+    right: 0px;
+    top: -40px;
+    width: 160px;
+    /*border: 2px solid #AAA;*/
+    /*border-radius: 40px*/
 }
