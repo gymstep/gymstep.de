@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kurse &amp; Angebote on Gymnastik- und Steptanz-Verein Fortuna Biesdorf e.V.</title>
+    <link>http://localhost:1313/kurse-angebote/</link>
+    <description>Recent content in Kurse &amp; Angebote on Gymnastik- und Steptanz-Verein Fortuna Biesdorf e.V.</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <atom:link href="http://localhost:1313/kurse-angebote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gymnastik</title>
+      <link>http://localhost:1313/kurse-angebote/gymnastik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kurse-angebote/gymnastik/</guid>
+      <description>&lt;p&gt;Gymnastik mit Musik bringt Spaß und ist für alle Altersgruppen geeignet, unabhängig wie sportlich man ist.&lt;/p&gt;&#xA;&lt;p&gt;Jede Trainingsstunde teilt sich Erwärmung, Krafttraining und Dehnung mit Entspannung. Der ganze Körper wird trainiert, Ausdauer und alle Muskelpartien werden gestärkt. Bewegungen passend zur Musik bringen das Herz-Kreislauf-System in Schwung und stärken ganz nebenbei das Rhythmusgefühl und die Koordination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seniorengymnastik</title>
+      <link>http://localhost:1313/kurse-angebote/seniorengymnastik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kurse-angebote/seniorengymnastik/</guid>
+      <description>&lt;p&gt;Gymnastik in der Gruppe macht mehr Spaß als allein zu Hause. Mit dem Beweglichkeitstraining schulen wir Körperwahrnehmung, Gleichgewicht und Koordination. Wir üben in Kleingruppen mit ca. 10 Personen, so dass auch die sozialen Kontakte unser Wohlbefinden verbessern.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stepptanz</title>
+      <link>http://localhost:1313/kurse-angebote/stepptanz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kurse-angebote/stepptanz/</guid>
+      <description>&lt;h5 id=&#34;stepptanz-für-erwachsene&#34;&gt;Stepptanz für Erwachsene&lt;/h5&gt;&#xA;&lt;p&gt;Die Stepptanzgruppe trainiert seit 1985 an der Sportanlage Grabensprung und zeigt ihr Können ab und zu bei Sportfesten, in Seniorenheimen und auf Freilichtbühnen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tanzen</title>
+      <link>http://localhost:1313/kurse-angebote/tanzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kurse-angebote/tanzen/</guid>
+      <description>&lt;p&gt;Für unsere Tänze ist kein Partner erforderlich, es stehen Spaß und Freude an der Bewegung im Vordergrund. Wir haben ein umfangreiches Repertoire an Tänzen einstudiert, die regelmäßig geübt werden. Die Tanzarten sind abwechslungsreich, wie z.B. Kreistanz, Mixer oder Line Dance. Bei der Choreografie und Auswahl der Musik von neuen Tänzen können eigenen Ideen eingebracht werden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yoga</title>
+      <link>http://localhost:1313/kurse-angebote/yoga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kurse-angebote/yoga/</guid>
+      <description>&lt;p&gt;90 Minuten im Wechselspiel von „Einatmen und Ausatmen&amp;quot;, „Anspannung und Entspannung&amp;quot;, „Dehnen und Lockerlassen&amp;quot;. Das Übungsprogramm folgt Elementen des Hatha-Yoga in überwiegend konstanter Reihenfolge mit kleineren Variationen. Feste Bestandteile sind die 5 Tibeter, der Sonnengruß, Übungen zur Stärkung der Körpermitte, Atemübungen und Tiefenentspannung. Die ausgewählten Asanas sind für alle Altersgruppen geeignet und werden während der Übung detailliert erklärt, sodass auch Anfänger und Seiteneinsteiger problemlos teilnehmen können.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

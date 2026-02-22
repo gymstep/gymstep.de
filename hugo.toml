@@ -1,0 +1,9 @@
+baseURL = "https://gymstep.de/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Gymnastik- und Steptanz-Verein Fortuna Biesdorf e.V."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

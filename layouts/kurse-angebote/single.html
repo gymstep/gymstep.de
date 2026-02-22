@@ -1,0 +1,62 @@
+{{ define "submenu" }}
+<ul class=submenu>
+  <li><a href="/kurse-angebote/gymnastik/">Gymnastik</a></li>
+  <li><a href="/kurse-angebote/seniorengymnastik/">Seniorengymnastik</a></li>
+  <li><a href="/kurse-angebote/stepptanz/">Stepptanz</a></li>
+  <li><a href="/kurse-angebote/tanzen/">Tanzen</a></li>
+  <li><a href="/kurse-angebote/yoga/">Yoga</a></li>
+</ul>
+{{ end }}
+
+{{ define "main" }}
+{{ $page := . }}
+<div class="row">
+  <h4>{{ .Title }}</h4>
+  {{ .Content }}
+</div>
+{{ with .Params.locations }}
+  {{ $locations := . }}
+  {{ $n := len $locations }}
+  {{ if eq $n 1 }}
+    {{ with index $locations 0 }}
+    <div class="row">
+      {{ if .section }}<h5>{{ .section }}</h5>{{ end }}
+      <div class="twelve columns">
+        <p>
+          <b>{{ .city }}</b><br>
+          {{ .venue }}<br>
+          {{ .address }}<br>
+          <br>
+          {{ range .schedules }}{{ . | safeHTML }}<br>{{ end }}
+          <br>
+          <b>Ansprechpartner:</b><br>
+          {{ .contact }}<br>
+          {{ if .phone }}<a href="tel:{{ .phone }}">{{ if .phone_display }}{{ .phone_display }}{{ else }}{{ .phone }}{{ end }}</a><br>{{ end }}
+          {{ if .email }}<a href="mailto:{{ .email }}">{{ .email }}</a>{{ end }}
+        </p>
+      </div>
+    </div>
+    {{ end }}
+  {{ else }}
+    {{ range $i, $loc := $locations }}
+      {{ if eq (math.Mod $i 2) 0 }}<div class="row">{{ end }}
+      <div class="six columns">
+        {{ if $loc.section }}<h5>{{ $loc.section }}</h5>{{ end }}
+        <p>
+          <b>{{ $loc.city }}</b><br>
+          {{ $loc.venue }}<br>
+          {{ $loc.address }}<br>
+          <br>
+          {{ range $loc.schedules }}{{ . | safeHTML }}<br>{{ end }}
+          <br>
+          <b>Ansprechpartner:</b><br>
+          {{ $loc.contact }}<br>
+          {{ if $loc.phone }}<a href="tel:{{ $loc.phone }}">{{ if $loc.phone_display }}{{ $loc.phone_display }}{{ else }}{{ $loc.phone }}{{ end }}</a><br>{{ end }}
+          {{ if $loc.email }}<a href="mailto:{{ $loc.email }}">{{ $loc.email }}</a>{{ end }}
+        </p>
+      </div>
+      {{ if or (eq (math.Mod $i 2) 1) (eq (add $i 1) $n) }}</div>{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}

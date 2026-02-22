@@ -1,0 +1,6 @@
+<h5>{{ .Get "title" }}</h5>
+{{ with .Inner }}{{ . | markdownify }}<br><br>{{ end }}
+<p>{{ .Get "date" }}{{ with .Get "time" }} {{ . }}{{ end }}<br>
+{{ with .Get "location" }}{{ . }}<br>{{ end }}
+{{ with .Get "address" }}{{ . }}<br>{{ end }}
+{{ $link := .Get "link" }}{{ if $link }}<a href="{{ $link }}">{{ or (.Get "link_text") $link }}</a>{{ end }}</p>
